@@ -2,8 +2,8 @@
 
 // Calculate and return the total sum using recursive approach
 const sum = (arr) => {
-  if(arr.length === 0) return 0
-  else return arr[0] + sum(arr.slice(1))
+if (arr.length === 0) return 0
+return arr[0] + sum(arr.slice(1))
 }
 
 // Reverse string using recursive approach
